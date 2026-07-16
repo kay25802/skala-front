@@ -79,11 +79,16 @@ a:hover {
     
     /* 그림자 효과 효과 (선택 사항이지만 박스 모델의 입체감을 주기 좋습니다) */
     box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+
+    /* 사진 정렬*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 /* 카드 내부의 이미지 조절 */
 .trip-card img {
-    display: block;                 /* 이미지를 블록화하여 아래 글씨와 자연스럽게 줄바꿈 */
+    display: flex;                 /* 이미지를 블록화하여 아래 글씨와 자연스럽게 줄바꿈 */
     margin-bottom: 12px;            /* 이미지와 아래 설명 글씨 사이의 여백 */
     max-width: 100%;                /* 이미지가 부모 박스 밖으로 삐져나가지 않게 방지 */
     height: auto;
@@ -223,6 +228,19 @@ aside {
     background-color: #f8f9fa; /* 사이드바 구분을 위해 연한 배경색 추가 */
     padding: 15px;
     border-radius: 6px;
+}
+
+main img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0;   /* 가운데 정렬 */
+}
+
+.video-card video{
+    width: 400px;
+    height: auto;
+    display: block;
 }
 
 /* ==========================================================================
