@@ -25,26 +25,26 @@ h1 {
 h2 {
     color: #2c3e50;             /* 메인 남색 적용 */
     font-size: 42px;           /* h1보다 조금 작은 크기 */
-    background-color: #ecf0f1;  /* 밝은 회색 배경색으로 한 줄을 채움 */
+    background-color: #FFF5F8;  /* 밝은 연핑크 배경색으로 한 줄을 채움 */
     padding: 10px 15px;         /* 박스 내부 여백 (상하 10px, 좌우 15px) */
-    border-left: 5px solid #16a085; /* 왼쪽에 포인트가 되는 청록색 두꺼운 선 추가 */
+    border-left: 5px solid #E88DA8; /* 왼쪽에 포인트가 되는 연핑크 두꺼운 선 추가 */
     margin-top: 40px;           /* 위쪽 콘텐츠와 충분한 거리 확보 */
     margin-bottom: 15px;        /* 아래쪽 콘텐츠와의 간격 */
 }
 
 /* 소제목 h3: 말머리 기호(💡/📌 등)를 깔끔하게 강조하는 밑줄 형태 */
 h3 {
-    color: #16a085;             /* 포인트 청록색 적용 */
+    color: #E88DA8;             /* 포인트 연핑크 적용 */
     font-size: 38px;           /* 본문보다 약간 큰 크기 */
     padding-bottom: 5px;        /* 밑줄과의 간격 */
-    border-bottom: 2px solid #16a085; /* 아래쪽에 깔끔한 실선 추가 */
+    border-bottom: 2px solid #E88DA8; /* 아래쪽에 깔끔한 실선 추가 */
     margin-top: 25px;
     margin-bottom: 10px;
 }
 
 /* 본문 텍스트 링크 스타일 */
 a {
-    color: #2980b9;         /* 링크는 선명한 파란색 */
+    color: #E88DA8;         /* 링크는 메인 포인트 컬러인 연핑크 색 */
     text-decoration: none;  /* 밑줄 제거하여 깔끔하게 처리 */
 }
 
@@ -173,7 +173,7 @@ textarea {
 
 /* 회원가입 버튼 개별 스타일 (메인 포인터 컬러) */
 .btn-submit {
-    background-color: #16a085;      /* 메인 청록색 배경 */
+    background-color: #E88DA8;      /* 메인 연핑크 배경 */
     color: #ffffff;                 /* 글자색 흰색 */
 }
 
@@ -201,7 +201,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #16a085;
+    background-color: #E88DA8;
     color: #ffffff;
 }
 
@@ -285,7 +285,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #16a085;      /* 마우스를 올리면 포인트 청록색 배경 */
+    background-color: #E88DA8;      /* 마우스를 올리면 포인트 청록색 배경 */
     color: #ffffff;                 /* 글자색은 흰색으로 변경 */
 }
 
@@ -298,7 +298,7 @@ nav a:hover {
 
 /* 회원가입 버튼에 마우스를 올리면 살짝 더 어두운 청록색으로 변경 */
 .btn-submit:hover {
-    background-color: #117a65;
+    background-color: #E88DA8;
 }
 
 /* 다시작성 버튼에 마우스를 올리면 살짝 더 어두운 회색으로 변경 */
